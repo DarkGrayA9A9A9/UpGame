@@ -49,11 +49,10 @@ public class PlayerMovement : MonoBehaviour
             Jump();
             Move();
             PauseMenu();
-        }
-
-        InAir();
-        Landing();
-        AnimationChanger();
+            AnimationChanger();
+            InAir();
+            Landing();
+        } 
     }
 
     void Jump()
